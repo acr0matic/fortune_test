@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Топ букмекерских контор</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="rating">
+    <div class="rating__wrapper">
+      <header class="rating__header">
+        <h1 class="rating__title">Топ букмекерских контор</h1>
+        <h1 class="rating__title rating__title--mobile">Рейтинг букмекерских контор</h1>
+        <img src="assets/more.png" alt="Дополнительно" class="rating__more-icon">
+      </header>
+
+      <div class="rating__tabs">
+        <button class="rating__tab rating__tab--active" data-type="byuser">
+          Народный рейтинг
+        </button>
+        <button class="rating__tab" data-type="byeditors">Рейтинг редакции</button>
+        <button class="rating__tab" data-type="bybonus">Рейтинг по бонусу</button>
+        <button class="rating__tab" data-type="byrating&id=reliability">
+          Рейтинг по надежности
+        </button>
+      </div>
+
+      <div class="rating__content" id="rating-table-container"></div>
+
+      <footer class="rating__footer">
+        <div class="rating__footer-action">
+          <a href="#" class="rating__link">Смотреть дальше </a>
+
+          <svg class="rating__arrow" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="currentColor" />
+          </svg>
+        </div>
+
+        <a href="#" class="rating__link rating__link--info">Как формируется рейтинг?</a>
+      </footer>
+    </div>
+    <!-- /.rating__wrapper -->
+
+    <a href="#" class="rating__full-link">СМОТРЕТЬ ПОЛНЫЙ РЕЙТИНГ</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

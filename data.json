@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "logo": "assets/1xstavka.png",
+    "verified": true,
+    "rating": 4.9,
+    "review_count": 3255,
+    "badge": "exclusive",
+    "bonus_amount": 25000,
+    "name": "1Xставка",
+    "internal_link": "#",
+    "external_link": "#"
+    
+  },
+  {
+    "id": 2,
+    "logo": "assets/fonbet.png",
+    "verified": true,
+    "rating": 4.8,
+    "review_count": 1235,
+    "badge": "no-deposit",
+    "bonus_amount": 101000,
+    "name": "ФОНБЕТ",
+    "internal_link": "#",
+    "external_link": "#"
+  },
+  {
+    "id": 3,
+    "logo": "assets/leon.png",
+    "verified": true,    
+    "rating": 4.7,
+    "review_count": 3255,
+    "badge": "default",
+    "bonus_amount": 10000,
+    "name": "LEON",
+    "internal_link": "#",
+    "external_link": "#"
+  },
+  {
+    "id": 4,
+    "logo": "assets/winline.png",
+    "verified": false,    
+    "rating": 4.6,
+    "review_count": 435,
+    "badge": "no-bonus",
+    "bonus_amount": 0,
+    "name": "Winline",
+    "internal_link": "#",
+    "external_link": "#"
+  },
+  {
+    "id": 5,
+    "logo": "assets/melbet.png",
+    "verified": true,    
+    "rating": 5,
+    "review_count": 345,
+    "badge": "no-deposit",
+    "bonus_amount": 2500,
+    "name": "Мелбет",
+    "internal_link": "#",
+    "external_link": "#"
+  },
+  {
+    "id": 6,
+    "logo": "assets/1xstavka.png",
+    "verified": true,
+    "rating": 4.5,
+    "review_count": 1095,
+    "badge": "default",
+    "bonus_amount": 9900,
+    "name": "1XСТАВКА",
+    "internal_link": "#",
+    "external_link": "#"
+  }
+]
